@@ -1,0 +1,38 @@
+/* 
+Here is some default starting css:
+*/
+.container {
+    background-color: #040404;
+    width: 949px;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+    }
+    
+    .key {
+    border-radius: 0 0 5px 5px;
+    width: 41px;
+    height: 175px;
+    background-color: white;
+    border-style: solid;
+    border-width:0px;
+    position: relative;
+    padding-left: 0px;
+    margin: 2px;
+    
+    /* add more */
+    }
+    
+    .black--key::after {
+    background-color: #252525;
+    content: "";
+    border-radius: 0 0 3px 3px;
+    width: 32px;
+    height: 100px;
+    position: absolute;
+    right: 28px;
+    
+    
+    /* add more */
+    }
